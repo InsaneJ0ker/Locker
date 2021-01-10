@@ -14,15 +14,23 @@ This program is written in Python3.
 ## Setup
 
 You must have the following installed:
+
 -	MySQL Server 
 -	MySQL Connector
 -	Python3
+
 After setting up your MySQL Server, load up config.json and change the file to match your credentials as follows:
+
   {
+  
     "host": "host",
+    
     "user": "username",
+    
     "passwd": "password"
+    
   }
+  
 Then save and run createDB.py to create the database and table. This file needs to be run just once.
 
 Finally run the frontend.py file to store and manipulate data in the database.
