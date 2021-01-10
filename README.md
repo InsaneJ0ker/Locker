@@ -24,9 +24,7 @@ After setting up your MySQL Server, load up config.json and change the file to m
   {
   
     "host": "host",
-    
     "user": "username",
-    
     "passwd": "password"
     
   }
