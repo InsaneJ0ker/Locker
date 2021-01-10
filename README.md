@@ -9,9 +9,9 @@ The rest can be installed through pip: i.e. pip install pyperclip
 This program is written in Python3. 
 ## Setup
 You must have the following installed:
-•	MySQL Server 
-•	MySQL Connector
-•	Python3
+- •	MySQL Server 
+- •	MySQL Connector
+- •	Python3
 After setting up your MySQL Server, load up config.json and change the file to match your credentials as follows:
   {
     "host": "host",
