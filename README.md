@@ -4,10 +4,15 @@ Locker is a Python &amp; MySQL powered password manager.
 # Installation
 ## Dependencies
 MySQL Server, MySQL connector and pyperclip
+
 MySQL Server can be installed by visiting https://dev.mysql.com/downloads/mysql/
+
 The rest can be installed through pip: i.e. pip install pyperclip
-This program is written in Python3. 
+
+This program is written in Python3.
+
 ## Setup
+
 You must have the following installed:
 -	MySQL Server 
 -	MySQL Connector
