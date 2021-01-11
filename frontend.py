@@ -11,6 +11,7 @@ import re
 # Password Generator
 
 def passwordGenerator():
+    passwordEntry.delete(0, 'end')
     lowerCase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
                  'v', 'w', 'x', 'y', 'z']
     upperCase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
@@ -92,6 +93,7 @@ def search():
     mycursor.execute("SELECT password FROM locker WHERE mail = %s AND website = %s", (email, appName))
 
     myresult = mycursor.fetchone()
+    myresult = myresult[0]
     passwordEntry.insert(0, myresult)
     pyperclip.copy(myresult)
     messagebox.showinfo( message="Password copied")
